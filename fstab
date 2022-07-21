@@ -1,6 +1,5 @@
 
 
-
 #NAS Auto mount
-//192.168.1.51/music /home/jr/mnt/music cifs username=REPLACE,password=REPLACE,iocharset=utf8,file_mode=0777,dir_mode=0777
-//192.168.1.51/code_projects /home/jr/mnt/code_projects cifs username=REPLACE,password=REPLACE,iocharset=utf8,file_mode=0777,dir_mode=0777
+//192.168.1.51/music /mnt/music cifs username=REPLACE,password=REPLACE,iocharset=utf8,file_mode=0777,dir_mode=0777
+//192.168.1.51/code_projects /mnt/code_projects cifs username=REPLACE,password=REPLACE,iocharset=utf8,file_mode=0777,dir_mode=0777
