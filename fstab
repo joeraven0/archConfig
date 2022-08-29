@@ -1,5 +1,6 @@
 
 
 #NAS Auto mount
-//192.168.1.51/music /mnt/music cifs username=REPLACE,password=REPLACE,iocharset=utf8,file_mode=0777,dir_mode=0777
-//192.168.1.51/code_projects /mnt/code_projects cifs username=REPLACE,password=REPLACE,iocharset=utf8,file_mode=0777,dir_mode=0777
+//<source> <destination> cifs username=REPLACE,password=REPLACE,iocharset=utf8,file_mode=0777,dir_mode=0777
+
+#<ip>:<path> <destination> nfs noauto,nofail,x-systemd.automount,x-systemd.device-timeout=30,_netdev 0 0
